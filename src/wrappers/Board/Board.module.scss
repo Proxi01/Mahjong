@@ -1,0 +1,21 @@
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: fit-content;
+  margin: auto;
+
+  .btnWrapper {
+    grid-column: 1/11;
+    justify-self: center;
+
+    button {
+      height: 50px;
+      width: 100px;
+      border: none;
+      border-radius: 2px;
+      background: #74c2ec;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  }
+}
